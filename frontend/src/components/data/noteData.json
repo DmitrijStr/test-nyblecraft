@@ -1,0 +1,15 @@
+{
+	"tags": [{
+			"id": "1",
+			"name": "shop"
+		},
+		{
+			"id": "2",
+			"name": "food"
+		}
+	],
+	"initialNotes": [{
+		"id": "1",
+		"name": "Go to shop"
+	}]
+}

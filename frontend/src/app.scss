@@ -1,0 +1,99 @@
+.button {
+	background-color: white;
+	border: 0;
+	padding: 0;
+	width: 80px;
+	
+	&:hover {
+		cursor: pointer;
+		opacity: .8;
+	}
+}
+
+.header {
+	padding: 20px;
+
+	&__title {
+		margin: 0;
+		font-size: 35px;
+	}
+}
+
+.form-container {
+	width: 600px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+
+	&__input {
+		width: 80%;
+		font-size: 24px;
+		border: 0;
+	}
+
+	&__button {
+		margin-left: 10px;
+	}
+
+	&_type_editNote {
+		display: none;
+	}
+
+	&_type_open {
+		display: block;
+	}
+
+}
+
+.tags {
+	background-color: #CCC;
+	max-width: 500px;
+	margin: auto;
+	border-radius: 8px;
+	margin-bottom: 25px;
+
+	&__button {
+		width: 60px;
+		border: 0;
+		padding: 0;
+		margin: 5px;
+    background-color: darkseagreen;
+	}
+
+	&__title {
+		margin: 0;
+	}
+}
+
+.notes-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	padding: 15px;
+	gap: 10px;
+
+	.note {
+		display: flex;
+		flex-direction: row;
+		font-size: 35px;
+		border: 2px solid white;
+		justify-content: center;
+		min-height: 80px;
+		align-items: center;
+		border-radius: 8px;
+		padding: 0 15px;
+
+		&__button {
+			border: 0;
+			padding: 0;
+			height: 20px;
+		}
+
+		&__text {
+			font-size: 15px;
+		}
+	}
+}
